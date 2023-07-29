@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "hollowknightmod:pale_ore"
+  },
+  "result": "hollowknightmod:pale_ingot",
+  "experience": 0.1,
+  "cookingtime": 150
+}

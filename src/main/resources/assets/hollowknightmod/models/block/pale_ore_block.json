@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hollowknightmod:block/pale_ore_block"
+  }
+}

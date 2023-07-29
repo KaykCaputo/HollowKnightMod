@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hollowknightmod:pale_ore"
+        }
+      ]
+    }
+  ],
+  "conditions": [
+    {
+      "condition": "minecraft:can_harvest",
+      "harvest_tool": "pickaxe",
+      "harvest_level": 3
+    },
+    {
+      "condition": "minecraft:tool_requirements"
+    }
+  ]
+}

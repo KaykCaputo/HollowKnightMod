@@ -1,0 +1,10 @@
+{
+  "song": {
+    "sounds": [
+      {
+        "name": "hollowknightmod:song",
+        "stream": true
+      }
+    ]
+  }
+}
