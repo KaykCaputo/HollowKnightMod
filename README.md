@@ -21,6 +21,27 @@ Hallownest-themed content to Minecraft 1.16.5.
 - Includes a Hallownest-themed music disc and English and Brazilian Portuguese
   translations.
 
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/knight-armor-and-nail.png"
+       alt="The player wearing Knight armor and holding a Nail"
+       width="100%">
+  <br>
+  <sub>Knight armor and Nail in a forest environment</sub>
+</p>
+
+<p align="center">
+  <img src="docs/screenshots/crawtids-in-the-forest.png"
+       alt="A group of Crawtids in a forest"
+       width="49%">
+  <img src="docs/screenshots/tiktiks-in-the-forest.png"
+       alt="A group of Tiktiks in a forest"
+       width="49%">
+  <br>
+  <sub>Crawtids and Tiktiks</sub>
+</p>
+
 ## Nail Upgrades
 
 Place the current Nail in the left anvil slot and Pale Ingots in the right
