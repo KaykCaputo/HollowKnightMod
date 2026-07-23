@@ -6,7 +6,6 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -21,7 +20,7 @@ public class KnightArmorItem extends ArmorItem {
 
     public KnightArmorItem(EquipmentSlotType slot) {
         super(ModArmorMaterial.KNIGHT, slot,
-                new Properties().tab(ItemGroup.TAB_COMBAT));
+                new Properties().tab(ModItemGroup.HOLLOW_KNIGHT));
     }
 
     @Override
