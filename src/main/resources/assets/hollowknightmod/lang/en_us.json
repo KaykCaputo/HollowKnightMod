@@ -12,5 +12,9 @@
   "item.hollowknightmod.pale_ore": "Raw Pale Ore",
   "item.hollowknightmod.pure_nail": "Pure Nail",
   "item.hollowknightmod.sharpened_nail": "Sharpened Nail",
+  "item.hollowknightmod.crawtid_spawn_egg": "Crawtid Spawn Egg",
+  "item.hollowknightmod.tiktik_spawn_egg": "Tiktik Spawn Egg",
+  "entity.hollowknightmod.crawtid": "Crawtid",
+  "entity.hollowknightmod.tiktik": "Tiktik",
   "block.hollowknightmod.pale_ore_block": "Pale Ore"
 }

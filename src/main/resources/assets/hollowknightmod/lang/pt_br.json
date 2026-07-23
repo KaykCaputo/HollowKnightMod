@@ -12,5 +12,9 @@
   "item.hollowknightmod.pale_ore": "Minério Pálido Bruto",
   "item.hollowknightmod.pure_nail": "Ferrão Puro",
   "item.hollowknightmod.sharpened_nail": "Ferrão Afiado",
+  "item.hollowknightmod.crawtid_spawn_egg": "Ovo Gerador de Crawtid",
+  "item.hollowknightmod.tiktik_spawn_egg": "Ovo Gerador de Tiktik",
+  "entity.hollowknightmod.crawtid": "Crawtid",
+  "entity.hollowknightmod.tiktik": "Tiktik",
   "block.hollowknightmod.pale_ore_block": "Minério Pálido"
 }

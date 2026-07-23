@@ -13,6 +13,8 @@ Hallownest-themed content to Minecraft 1.16.5.
 - Pale Ore generates naturally in new Overworld chunks between Y=8 and Y=32.
   Each chunk gets four generation attempts with veins of up to five blocks.
 - The Old Nail can be upgraded through all four canonical stages at an anvil.
+- Crawtids and Tiktiks spawn underground throughout the Overworld and on the
+  surface of forest biomes at night.
 - Knight armor uses the supplied armor texture and gives the helmet animated
   3D horns.
 - All mod content is collected under a dedicated creative inventory tab.

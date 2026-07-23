@@ -6,6 +6,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -52,6 +53,14 @@ public class ModItems {
     public static final RegistryObject<Item> SONG_MUSIC_DISC = ITEMS.register("hollow_disc",
             () -> new MusicDiscItem(1, () -> ModSoundEvents.SONG.get(),
                     new Item.Properties().stacksTo(1).tab(ModItemGroup.HOLLOW_KNIGHT)));
+
+    public static final RegistryObject<Item> CRAWTID_SPAWN_EGG = ITEMS.register("crawtid_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntityTypes.CRAWTID, 0x34475C, 0xEEE7D5,
+                    new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
+
+    public static final RegistryObject<Item> TIKTIK_SPAWN_EGG = ITEMS.register("tiktik_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntityTypes.TIKTIK, 0xD4D6D4, 0x17283C,
+                    new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
 
 
     public static void register(IEventBus eventBus) {
