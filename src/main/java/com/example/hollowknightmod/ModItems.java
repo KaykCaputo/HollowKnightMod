@@ -18,7 +18,23 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
 
     public static final RegistryObject<Item> OLD_NAIL = ITEMS.register("old_nail",
-            () -> new SwordItem(ModItemTier.PALE_ORE, 7, 2f,
+            () -> new SwordItem(ModItemTier.PALE_ORE, 4, -2.4F,
+                    new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
+
+    public static final RegistryObject<Item> SHARPENED_NAIL = ITEMS.register("sharpened_nail",
+            () -> new SwordItem(ModItemTier.PALE_ORE, 8, -2.4F,
+                    new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
+
+    public static final RegistryObject<Item> CHANNELLED_NAIL = ITEMS.register("channelled_nail",
+            () -> new SwordItem(ModItemTier.PALE_ORE, 12, -2.4F,
+                    new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
+
+    public static final RegistryObject<Item> COILED_NAIL = ITEMS.register("coiled_nail",
+            () -> new SwordItem(ModItemTier.PALE_ORE, 16, -2.4F,
+                    new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
+
+    public static final RegistryObject<Item> PURE_NAIL = ITEMS.register("pure_nail",
+            () -> new SwordItem(ModItemTier.PALE_ORE, 20, -2.4F,
                     new Item.Properties().tab(ModItemGroup.HOLLOW_KNIGHT)));
 
     public static final RegistryObject<Item> KNIGHT_HELMET = ITEMS.register("knight_helmet",

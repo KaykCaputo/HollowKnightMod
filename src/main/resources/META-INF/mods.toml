@@ -16,6 +16,11 @@ An unofficial fan-made Minecraft Forge mod inspired by Hollow Knight.
 Explore the world for naturally generated Pale Ore, forge new materials,
 wield the Old Nail, wear the Knight armor set with 3D horns, and discover
 other Hallownest-inspired content.
+
+Upgrade the Old Nail at an anvil into the Sharpened, Channelled, Coiled,
+and Pure Nail. The upgrades consume 1, 1, 2, and 3 Pale Ingots and follow
+the original damage progression of 5, 9, 13, 17, and 21. Because Geo is
+not implemented, the first upgrade uses one Pale Ingot instead.
 '''
 
 [[dependencies.hollowknightmod]]

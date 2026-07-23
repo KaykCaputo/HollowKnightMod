@@ -8,8 +8,8 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
 
-    PALE_ORE(4, 150, 4f, 12f, 10,
-            () -> Ingredient.of(ModItems.PALE_ORE.get()));
+    PALE_ORE(4, 600, 4.0F, 0.0F, 10,
+            () -> Ingredient.of(ModItems.PALE_INGOT.get()));
 
     private final int harvestLevel;
     private final int maxUses;
@@ -31,32 +31,31 @@ public enum ModItemTier implements IItemTier {
 
     @Override
     public int getUses() {
-        return 0;
+        return maxUses;
     }
 
     @Override
     public float getSpeed() {
-        return 0;
+        return efficiency;
     }
 
     @Override
     public float getAttackDamageBonus() {
-        return 0;
+        return attackDamage;
     }
 
     @Override
     public int getLevel() {
-        return 0;
+        return harvestLevel;
     }
 
     @Override
     public int getEnchantmentValue() {
-        return 0;
+        return enchantability;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return null;
+        return repairMaterial.get();
     }
 }
-

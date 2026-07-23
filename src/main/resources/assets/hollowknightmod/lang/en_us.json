@@ -5,8 +5,12 @@
   "item.hollowknightmod.knight_chestplate": "Knight Cloak",
   "item.hollowknightmod.knight_helmet": "Knight Shell",
   "item.hollowknightmod.knight_leggings": "Knight Leggings",
+  "item.hollowknightmod.channelled_nail": "Channelled Nail",
+  "item.hollowknightmod.coiled_nail": "Coiled Nail",
   "item.hollowknightmod.old_nail": "Old Nail",
   "item.hollowknightmod.pale_ingot": "Pale Ingot",
   "item.hollowknightmod.pale_ore": "Raw Pale Ore",
+  "item.hollowknightmod.pure_nail": "Pure Nail",
+  "item.hollowknightmod.sharpened_nail": "Sharpened Nail",
   "block.hollowknightmod.pale_ore_block": "Pale Ore"
 }
