@@ -6,7 +6,8 @@ import net.minecraftforge.common.util.Lazy;
 
 public enum OreType {
 
-    PALE_ORE(Lazy.of(ModBlocks.PALE_ORE_BLOCK), 4, 3, 12, 5);
+    // More uncommon than iron, but slightly more abundant than vanilla gold.
+    PALE_ORE(Lazy.of(ModBlocks.PALE_ORE_BLOCK), 5, 8, 32, 4);
 
     private final Lazy<Block> block;
     private final int maxVeinSize;

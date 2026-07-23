@@ -1,37 +1,24 @@
 package com.example.hollowknightmod;
 
-import com.mojang.blaze3d.matrix.MatrixStack;
-import net.minecraft.client.Minecraft;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.RenderPlayerEvent;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraftforge.event.entity.EntityEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-import static com.mojang.realmsclient.gui.LongRunningTask.LOGGER;
+@Mod.EventBusSubscriber(modid = HollowKnightMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
+public final class PlayerScaleHandler {
 
-@Mod.EventBusSubscriber(modid = HollowKnightMod.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
-public class PlayerScaleHandler {
+    public static final float PLAYER_SCALE = 0.5F;
 
-    private static final float BLOCK_SIZE_SCALE = 0.5f;
+    private PlayerScaleHandler() {
+    }
 
-    @SubscribeEvent(priority = EventPriority.NORMAL)
-    public static void onRenderPlayer(RenderPlayerEvent.Pre event) {
-        System.out.println("onRenderPlayer called!");
-        LOGGER.info("onRenderPlayer called!");
-        if (event.getPlayer() != null && event.getPlayer() == Minecraft.getInstance().player) {
-            MatrixStack matrixStack = event.getMatrixStack();
-            matrixStack.pushPose();
-
-            float currentScale = BLOCK_SIZE_SCALE;
-            matrixStack.scale(currentScale, currentScale, currentScale);
+    @SubscribeEvent(priority = EventPriority.LOW)
+    public static void onPlayerSize(EntityEvent.Size event) {
+        if (event.getEntity() instanceof PlayerEntity) {
+            event.setNewSize(event.getNewSize().scale(PLAYER_SCALE));
+            event.setNewEyeHeight(event.getNewEyeHeight() * PLAYER_SCALE);
         }
     }
 }
-
-
-
-
-
-
-
